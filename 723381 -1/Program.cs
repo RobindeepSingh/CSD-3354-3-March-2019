@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _723381__1
+namespace BankAccountNS
 {
     
         //Name : Gurkirat Singh - C0731779
@@ -49,7 +49,7 @@ namespace _723381__1
                 {
                     throw new ArgumentOutOfRangeException("amount");
                 }
-                m_balance += amount;
+                m_balance -= amount;
             }
             public void Credit(double amount)
             {
